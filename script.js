@@ -50,35 +50,35 @@ async function getWeatherData(cityValue) {
 
         if (data.weather[0].main == "Clouds") {
             weatherIcon.src = "images/clouds.png";
-            document.body.style.backgroundImage = "url('images/clouds-bg.jpg')";
+            document.body.style.backgroundImage = "url('images/coulds-bg.jpg')";
             weatherIcon.innerHTML = `<img src= "images/clouds.png"/>`
 
 
         } else if (data.weather[0].main == "Clear") {
             weatherIcon.src = "images/clear.png";
-
             weatherIcon.innerHTML = `<img src= "images/clear.png"/>`
             document.body.style.backgroundImage = "url('images/sun-bg.jpg')";
 
 
         } else if (data.weather[0].main == "Rain") {
             weatherIcon.src = "images/rain.png";
-            document.body.style.backgroundImage = "url('images/rain-bg.jpg')";
             weatherIcon.innerHTML = `<img src= "images/rain.png"/>`
+            document.body.style.backgroundImage = "url('images/rain-bg.jpg')";
 
         } else if (data.weather[0].main == "Drizzle") {
             weatherIcon.src = "images/drizzle.png";
             weatherIcon.innerHTML = `<img src= "images/drizzle.png"/>`
-            document.body.style.backgroundImage = "url('images/rain-bg.jpg')";
+            document.body.style.backgroundImage = "url('images/drizzle-bg.jpg.jpg')";
 
         } else if (data.weather[0].main == "Snow") {
             weatherIcon.src = "images/snow.png";
-            document.body.style.backgroundImage = "url('images/snow-bg.jpg')";
             weatherIcon.innerHTML = `<img src= "images/snow.png"/>`
+            document.body.style.backgroundImage = "url('images/snow-bg.jpg')";
 
         } else if (data.weather[0].main == "Mist") {
             weatherIcon.src = "images/mist.png";
             weatherIcon.innerHTML = `<img src= "images/mist.png"/>`
+            document.body.style.backgroundImage = "url('images/mist-bg.jpg')";
 
         } else {
             /*     weatherIcon.src = "images/clear.png"; */

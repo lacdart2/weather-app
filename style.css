@@ -118,6 +118,12 @@ form input[type="submit"]:hover {
           font-size: 38px;
           font-weight: thin;
           color: #1c436d;
+          width: 50%;
+     
+}
+.city-name h6 {
+
+    width: 50%;
 }
 .country {
           position: absolute;
@@ -159,10 +165,11 @@ form input[type="submit"]:hover {
 }
 .rights a {
           transition: ease-in 0.3s;
-          font-size: 13px;
+          font-size: 15px;
+          color: #1c436d;
 }
 .rights a:hover {
-          color: #2c3e50;
+          color: #007bff;
 }
 
 @media (max-width: 768px) {
@@ -174,11 +181,11 @@ form input[type="submit"]:hover {
                     font-size: 25px;
           }
           .container {
-                    min-width: 80%;
+                    min-width: 70%;
                     overflow-y: visible;
                     margin: 0 auto;
-                    height: 105vh;
-                    padding-bottom: 0;
+                    height: 103vh;
+                 
                     overflow: visible;
           }
 
